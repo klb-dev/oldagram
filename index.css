@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0 auto;
+}
+
+/* header */
+
+.user-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.img-logo {
+    width: 127px;
+    height: 55px;
+}
+
+.img-user {
+    width: 34px;
+    border-radius: 50%;
+}
+
+/* poster */
+.poster-container {
+    display: flex;
+    align-items: center;
+}
+
+.poster-info{
+     flex-direction: column;
+     margin: 0 10px;
+}
+
+.img-poster {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.poster-info h3,
+.likes {
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.poster-info p {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+/* post */
+
+.post {
+    width: 100%;
+}
+
+.icons-container {
+    width: 50%;
+}
+
+.img-icons {
+    width: 23px;
+    margin: 10px 0 5px 10px;
+}
+
+.img-icons:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    opacity: .3;
+    padding: 0;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.poster-message {
+    font-size: 13px;
+    margin: 5px 10px;
+}
+
+.likes {
+    margin: 0 10px;
+}
+
+
+
